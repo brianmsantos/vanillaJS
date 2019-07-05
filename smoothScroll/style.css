@@ -9,6 +9,8 @@ body {
   color: #fff;
   line-height: 1.6;
   height: 100vh;
+  /* This hides the side scroll */
+  /* overflow: hidden; */
 
 }
 
@@ -16,6 +18,9 @@ body {
     width: 100%;
     height: 100;
     /* CSS Smooth Scroll */
+    /* overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory; */
 
 }
 
@@ -61,6 +66,7 @@ section {
   text-align: center;
   width: 100%;
   height: 100vh;
+  scroll-snap-align: center;
 
 }
 
@@ -81,7 +87,7 @@ section#home {
     background: url('https://source.unsplash.com/NFs6dRTBgaM/1600x900') no-repeat center center/cover;;
   }
   
-  section#service {
+  section#services {
     background: url('https://source.unsplash.com/K2tdx2mFDHc/1600x900') no-repeat center center/cover;;
   }
   
